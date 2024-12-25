@@ -1,0 +1,566 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+
+}
+
+#navbar {
+    height: 100px;
+    background-color: #3b5f32;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.logo {
+    color: gold;
+    font-size: 30px;
+    text-decoration: wavy;
+}
+
+.main {
+    background-color: #84ba3f;
+    text-align: center;
+    color: aliceblue;
+    padding: 50px 20px;
+    background-image: url(./asset/image/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.main h1 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.main button {
+    background-color: #f57c00;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.container h1 {
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+.container p {
+    text-align: center;
+    color: gray;
+}
+
+.safa {
+    /* continer for the layout */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle-item {
+    /* for heading and paragraph that is used under circle*/
+    text-align: center;
+  width: 250px;
+}
+
+.circle {
+    /*pictures that i have used (icon pictures)*/
+    width: 100px;
+    padding: 80px;
+    border-radius: 50%;
+    background-color: gray;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.para {
+    margin-top: 5px;
+    font-size: 5px;
+    color: #666;
+}
+
+.circle,
+h1 {
+    color: black;
+    padding-left: 50px;
+}
+
+.container-tow h1 {
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    margin: 15px;
+}
+
+.container-tow p {
+    text-align: left;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+    margin-bottom: 20px;
+    background-image: url(./asset/image/123.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pic,
+img {
+    float: right;
+    width: 64%;
+    height: 64%;
+    border-radius: 0%;
+
+}
+
+.container-tow button { /* button of container2*/
+    background-color: #f57c00;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+}
+
+.container-three h1 { /*to change heading of container3*/
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.container-three p {
+    text-align: center;
+    color: gray;
+}
+
+.box-container { /*main container*/
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.box {
+    width: 200px;
+    height: 150px;
+    border: 2px solid #ddd;
+    background-color: gray;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 70px;
+    font-size: 2.5rem;
+}
+
+.box-heading {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+}
+
+.box p {
+    font-size: 0.9rem;
+    color: #555;
+    text-align: center;
+    line-height: 1.4;
+
+}
+
+.box button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+}
+
+.portfolio,
+h1 { /*portfolio heading section 1st heading */
+    text-align: center;
+    text-transform: uppercase;
+    margin: 15px;
+}
+
+.portfolio,
+p {
+    text-align: center;
+    color: gray;
+}
+
+.navbar {
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.container-four {
+    background-color: black;
+}
+
+.image-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.image {
+    width: 200px;
+    height: 220px;
+    background-image: url(./asset/image/human-brain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #000;
+    padding-right: 150px;
+}
+
+#div1 {
+    background-image: url(./asset/image/tree.jpg);
+
+}
+
+#div2 {
+    background-image: url(./asset/image/logo.jpg);
+}
+
+#div3 {
+    background-image: url(./asset/image/horse);
+}
+
+#div4 {
+    background-image: url(./asset/image/grow.jpg);
+}
+
+#div5 {
+    background-image: url(./asset/image/brain\ work.webp);
+}
+
+#div6 {
+    background-image: url(./asset/image/lion-group.jpg);
+}
+
+#div7 {
+    background-image: url(./asset/image/pro);
+}
+
+.columns {
+    display: flex;
+    /* Flexbox layout for columns */
+    justify-content: space-between;
+    /* Distribute space between columns */
+    margin: 20px;
+    /* Add space around the custom columns container */
+}
+
+.column-right {
+    width: 48%;
+    /* Each column takes 48% of the space */
+    padding: 10px;
+    /* Add some padding inside columns */
+    border-left: 1px solid #444;
+    /* Vertical divider between columns */
+}
+
+.column-left {
+    width: 48%;
+    /* Each column takes 48% of the space */
+    padding: 10px;
+    /* Add some padding inside columns */
+}
+
+.column-left .row,
+.column-right .row {
+    margin-bottom: 20px;
+    /* Add margin between rows */
+    padding-left: 15px;
+    /* Padding for content inside rows */
+    border-bottom: 1px solid #444;
+    /* Horizontal line between rows */
+}
+
+.column-left p,
+.column-right p {
+    border-bottom: none;
+    /* Remove border for the last row in each column */
+}
+
+.row-heading {
+    font-size: 1.5rem;
+    /* Larger font for headings */
+    margin-bottom: 10px;
+    /* Space between heading and paragraph */
+}
+
+.row-paragraph {
+    font-size: 1rem;
+    /* Regular font size for paragraphs */
+    color: #555;
+    /* Set a lighter color for the paragraphs */
+}
+
+
+.container-five,
+h1 {
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+.container-five,
+p {
+    text-align: center;
+    color: gray;
+}
+
+.process {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.round-item {
+    text-align: center;
+    width: 250px;
+    display: inline-block;
+    margin: 30px;
+    padding: 32px;
+}
+
+.round {
+    width: 90px;
+    padding: 100px;
+    border-radius: 50%;
+    background-color: gray;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.style p {
+    margin-top: 5px;
+    color: #666;
+}
+
+.heading h3 {
+    margin-top: 0px;
+    font-size: 15px;
+    color: #333;
+}
+
+.start-up {
+    background-color: #3b5f32;
+}
+
+.start-up,
+h1 {
+    text-align: center;
+    color: white;
+
+}
+
+.start {
+    color: black;
+
+}
+
+form {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0% auto;
+}
+
+form,
+input {
+    font-size: 1rem;
+    width: 200px;
+    color: #fff;
+    padding: 10px;
+    display: inline;
+    margin: 20px;
+}
+
+.submit-button {
+    padding: 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e74c3c;
+    margin: 20px;
+}
+
+.contact,
+h1 {
+    color: #3b5f32;
+    text-align: center;
+}
+
+.contact,
+p {
+    color: #666;
+    text-align: center;
+}
+
+.number {
+    color: green;
+    margin: 10px;
+}
+
+.us {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1520px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.footer {
+    display: flex;
+    /* Use Flexbox to align columns */
+    align-items: flex-start;
+    /* Align content to the top */
+    justify-content: space-between;
+    /* Distribute space between columns */
+    padding: 23px;
+    /* Add padding around the footer */
+    background-color: #3b5f32;
+    /* Set background color */
+    color: #fff;
+    /* Set text color */
+}
+
+.footer div {
+   flex: 1;
+    /* Each column takes equal space */
+    margin: 0 15px;
+    /* Space between columns */
+    border-left: 1px solid #bfa7a7;
+    /* Vertical divider between columns */
+    padding-left: 12px;
+    /* Padding inside columns */
+}
+
+.footer div:first-child {
+    border-left: none;
+    /* Remove border for the first column */
+}
+
+.company-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    /* Space below company name */
+    color: gold;
+    font-size: 30px;
+    text-decoration: wavy;
+}
+
+.services-heading,
+.links-heading,
+.contacts-heading {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+ul.services-list,
+ul.links-list {
+    list-style-type: none;
+    padding: 0%;
+}
+
+ul.services-list li,
+ul.links-list li {
+    margin-bottom: 3px;
+    /* Space between services list  */
+}
+
+a {
+  text-decoration: solid;
+    /* Remove underline and make it solid from links */
+    color: #fff;
+    /* Link color */
+}
+
+.contacts p {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.company-description {
+    color: #fff;
+}
+[class*="col-"]
+   {
+    width:100%
+   }
+
+@media screen and (max-width: 480px ) {
+    body {
+        width: 310%;
+    }
+   h1, h2,h3,h4 {
+        font-size: 90%;
+    }
+img{
+max-width: 100%;
+height: auto;
+}
+ .box-container .box{
+padding: 31px;
+}
+.round-item{
+    margin: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 1.62%;
+}
+}
+@media screen and (max-width: 740px ) {
+    body {
+        width: 310%;
+    }
+   h1, h2,h3,h4 {
+        font-size: 90%;
+    }
+img{
+max-width: 100%;
+height: auto;
+}
+ .box-container .box{
+padding: 25.3px;
+}
+.round-item{
+    margin: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 1%;
+}
+}
